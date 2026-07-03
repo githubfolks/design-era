@@ -360,7 +360,7 @@ section {
   text-align: center;
 }
 
-.section-title > span {
+.section-title>span {
   display: inline-block;
   padding: 0.5rem 1rem;
   background: rgba(24, 119, 242, 0.1);
@@ -658,7 +658,7 @@ footer {
     gap: 1.5rem;
     padding: 2rem;
     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
-    border-top: 1px solid rgba(0,0,0,0.05);
+    border-top: 1px solid rgba(0, 0, 0, 0.05);
   }
 
   .nav-links.active {
@@ -831,6 +831,10 @@ footer {
 
   .section-title {
     margin-bottom: 3rem !important;
+  }
+
+  .section-title>span {
+    margin-top: 1.5rem;
   }
 
   /* Force grids to single column on mobile */
